@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InSync Marketing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header nav {
+            margin-top: 10px;
+        }
+        header nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+        header nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1920x600'); /* Placeholder image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+        .hero a {
+            display: inline-block;
+            background-color: #ff8000;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .hero a:hover {
+            background-color: #cc6600;
+        }
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .section h3 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .cta {
+            background-color: #004080;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .cta h3 {
+            font-size: 2em;
+        }
+        .cta a {
+            display: inline-block;
+            background-color: #ff8000;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>InSync Marketing</h1>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="hero">
+        <h2>Empowering Fitness Influencers</h2>
+        <p>High-leverage strategies to grow your brand, attract clients, and achieve your goals.</p>
+        <a href="#contact">Book a Free Strategy Call</a>
+    </div>
+    <div class="section" id="about">
+        <h3>About InSync Marketing</h3>
+        <p>At InSync Marketing, we specialize in tailored marketing strategies for fitness influencers. Our mission is to help you scale your business, attract new clients, and achieve sustainable growth.</p>
+    </div>
+    <div class="section" id="services">
+        <h3>Our Services</h3>
+        <p>We provide expert solutions in lead generation, content creation, sales management, and personalized marketing strategies to help you succeed in your industry.</p>
+    </div>
+    <div class="cta" id="contact">
+        <h3>Let's Work Together</h3>
+        <a href="mailto:support@insyncmarketing.com">Contact Us</a>
+    </div>
+    <footer>
+        <p>&copy; 2024 InSync Marketing. All rights reserved.</p>
+    </footer>
+</body>
+</html>
